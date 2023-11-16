@@ -70,12 +70,12 @@ a {
 .iconoHeader > a:visited {
   color: #ff7517;
 }
-nav > ul > li > a:visited {
+#inicio > nav > ul > li > a:visited {
   color: white;
 }
 
 #inicio {
-  background-image: url("Imagenes/Scan 023 1.png");
+  background-image: url("Imagenes/imgInicio.png");
   background-size: cover;
   color: white;
   font-family: "karantina";
@@ -531,6 +531,10 @@ footer {
   margin-top: 20px;
   margin-left: 600px;
   width: 600px;
+}
+
+#navFooter > ul > li > a:visited {
+    color: white;
 }
 
 #derechos {
