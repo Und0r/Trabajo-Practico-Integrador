@@ -1,0 +1,568 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header {
+  background-color: #3e3939;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#contactoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 600px;
+}
+#contactoHeader {
+  font-family: "karantina";
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  flex-basis: 300px;
+}
+
+.iconoNumero {
+  color: #ff7517;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#numeroHeader {
+  margin-left: 5px;
+  padding-top: 5px;
+}
+#iconoHeader {
+  color: #ff7517;
+  font-size: 30px;
+  position: relative;
+  padding-top: 5px;
+  display: flex;
+  align-self: center;
+  margin-right: 5px;
+}
+
+#iconoHeader > a:visited {
+  color: #ff7517;
+}
+
+#numeroHeader {
+  font-family: "karantina";
+  font-weight: 400;
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+.iconoHeader > a:visited {
+  color: #ff7517;
+}
+nav > ul > li > a:visited {
+  color: white;
+}
+
+#inicio {
+  background-image: url("Imagenes/Scan 023 1.png");
+  background-size: cover;
+  color: white;
+  font-family: "karantina";
+  font-weight: 700;
+  font-size: 64px;
+  height: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#inicio > nav {
+  font-family: "karantina";
+  font-weight: 400;
+  font-size: 40px;
+  text-shadow: 1px 1px 10px black;
+  width: 1300px;
+  margin-top: 10px;
+  align-self: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin: 10px;
+}
+
+#logoNav {
+  width: 130px;
+  margin-left: 40px;
+  height: 60px;
+}
+
+#inicio > p {
+  width: 500px;
+  text-align: center;
+  padding: 40px 300px 150px 300px;
+}
+
+#iconoInicio {
+  align-self: center;
+  width: 200px;
+  padding: 100px 500px 0px 500px;
+}
+
+#sobreNosotros {
+  height: 1024px;
+  font-family: "karantina";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sectionSobreNosotros {
+  font-weight: 400;
+  font-size: 40px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+#sobreNosotros > h2 {
+  font-size: 32px;
+  align-self: flex-start;
+  font-weight: 800;
+  padding-left: 300px;
+  margin-top: -70px;
+}
+
+h3 > p {
+  margin-left: 402px;
+  margin-top: -98px;
+}
+
+#tituloSobreNosotros {
+  font-size: 96px;
+  font-weight: 400;
+}
+
+#logoFilmoSobreNosotros {
+  position: absolute;
+  width: 191px;
+  margin-top: 16px;
+  margin-left: 15px;
+}
+
+#logoFilmoSobreNosotrosP {
+  position: relative;
+  width: 122px;
+  margin-top: 29px;
+  margin-left: 17px;
+}
+
+#PSobreNosotros {
+  width: 490px;
+}
+#divSobreNosotros {
+  width: 623px;
+}
+
+#imagenSobreNosotros {
+  width: 700px;
+  margin-top: 15px;
+  margin-left: 18px;
+}
+#imagenSobreNosotrosFondo {
+  margin-left: 210px;
+  height: 466px;
+  width: 700px;
+  background: rgb(255, 136, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 136, 0, 0.71) 31%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+#visitaYoutube {
+  font-weight: 400;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 120px;
+}
+
+#visitaYoutube > a > i {
+  font-size: 50px;
+}
+
+#visitaYoutube > a {
+  margin-top: 20px;
+  background-color: #ff7517;
+  width: 80px;
+  border-radius: 20px;
+}
+
+#visitaYoutube > a:visited {
+  color: #3e3939;
+}
+
+#servicios {
+  background-color: #3e3939;
+  color: white;
+  height: 1024px;
+  font-family: "karantina";
+  text-align: center;
+}
+
+#servicios > h2 {
+  padding-top: 30px;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+#serviciosContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cuadrosServicios {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 10px;
+  height: 430px;
+  background-size: cover;
+  flex-basis: 710px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imagenServicios {
+  width: 462px;
+  height: 240px;
+}
+
+#textoServicios {
+  width: 462px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7517;
+}
+
+#textoServicios > h4 {
+  text-decoration: underline;
+}
+#textoServicios > p {
+  margin-top: 10px;
+  width: 300px;
+  height: 80px;
+}
+
+#proyectos {
+  background-color: #ff7517;
+  color: white;
+  height: 1024px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#proyectos > h2 {
+  font-family: "karantina";
+  font-size: 42px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+#articleProyectoUno > p,
+#articleProyectoDos > p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 800;
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+  padding: 40px 40px 40px 40px;
+  border-radius: 20px;
+
+  background-color: hsla(0, 0%, 0%, 0.7);
+}
+
+#articleProyectoUno > h4,
+#articleProyectoDos > h4 {
+  font-family: "karantina";
+  font-size: 26px;
+  font-weight: 700;
+  text-shadow: 0px 4px 14px black;
+}
+
+#articleProyectoUno {
+  margin-left: 200px;
+}
+
+#articleProyectoDos {
+  margin-right: 200px;
+}
+
+.proyectoUno {
+  margin-top: 60px;
+  margin-left: 345px;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proyectoDos {
+  margin-top: 60px;
+  margin-right: 345px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoFilmoProyectos {
+  width: 60px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+#otrosProyectos {
+  background-color: black;
+  color: white;
+  height: 1024px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#otrosProyectos > h2 {
+  font-family: "karantina";
+  font-size: 42px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+#otrosProyectosContainer {
+  align-self: center;
+  display: flex;
+}
+
+#otrosProyectosContainer > article {
+  background-color: #3e3939;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0px 20px 0px 20px;
+}
+#otrosProyectosContainer > article > h4 {
+  font-family: "karantina";
+  font-size: 26px;
+  font-weight: 800;
+  padding-top: 20px;
+  background-color: #ff7517;
+  height: 60px;
+  width: 300px;
+}
+
+#otrosProyectosContainer > article > p {
+  font-family: "inter";
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 40px;
+  height: 120px;
+  width: 200px;
+}
+
+#otrosProyectosContainer > article > iframe {
+  border-radius: 10px 10px 0px 0px;
+}
+
+#otrosProyectos > a {
+  font-family: "karantina";
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
+  background-color: #ff7517;
+  border-radius: 5px;
+  align-self: center;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+#contacto {
+  color: black;
+  height: 786px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#contacto > h2 {
+  font-family: "karantina";
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+  flex-basis: 2000px;
+}
+
+#contactoForm {
+  width: 2000px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contactoForm > h3 {
+  align-self: center;
+  font-family: "karantina";
+  font-size: 64px;
+  font-weight: 700;
+}
+
+#asideContacto {
+  width: 640px;
+  height: 360px;
+  background-color: #3e3939;
+  color: white;
+  border-radius: 30px 30px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#asideContacto > h4 {
+  font-family: "karantina";
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #ff7517;
+  border-radius: 20px 20px 0px 0px;
+  flex-basis: 700px;
+  align-self: flex-start;
+  padding: 20px;
+}
+
+#asideContacto > i {
+  font-size: 200px;
+  margin-right: 75px;
+  color: #ff7517;
+}
+
+form {
+  font-family: "karantina";
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+form > button {
+  font-family: "karantina";
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  background-color: #ff7517;
+  align-self: center;
+  margin-top: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+#mensaje {
+  height: 80px;
+}
+footer {
+  height: 238px;
+  background-color: #3e3939;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+.logoFilmoFooter {
+  width: 190px;
+  height: 65px;
+  margin-left: 300px;
+  margin-top: 30px;
+  order: 0;
+}
+#navFooter {
+  font-family: "karantina";
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 600px;
+  width: 600px;
+}
+
+#derechos {
+  order: 3;
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 200;
+  width: 390px;
+  text-align: center;
+  margin-left: 200px;
+}
+
+#numeroFooter {
+  display: flex;
+  order: 4;
+  font-family: "karantina";
+  font-weight: 400;
+  font-size: 40px;
+  margin-left: 450px;
+}
+
+#numeroFooter > p:first-child {
+  font-weight: 100;
+}
+#iconosFooter {
+  margin-top: 7px;
+  order: 5;
+  color: #ff7517;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+#iconosFooter > a:visited {
+  color: #ff7517;
+}
