@@ -445,7 +445,7 @@ iframe {
 }
 
 #contactoForm {
-  width: 2000px;
+  width: 1500px;
   height: fit-content;
   display: flex;
   justify-content: space-around;
@@ -456,6 +456,8 @@ iframe {
   font-family: "karantina";
   font-size: 64px;
   font-weight: 700;
+  text-align: center;
+  width: 400px;
 }
 
 #asideContacto {
@@ -553,7 +555,7 @@ footer {
   font-family: "karantina";
   font-weight: 400;
   font-size: 40px;
-  margin-left: 450px;
+  margin-left: 425px;
 }
 
 #numeroFooter > p:first-child {
